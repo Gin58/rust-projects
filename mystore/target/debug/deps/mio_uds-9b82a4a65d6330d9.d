@@ -1,0 +1,11 @@
+/Users/prt_oyama.g/workspace/rust_projects/mystore/target/debug/deps/mio_uds-9b82a4a65d6330d9.rmeta: /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/lib.rs /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/datagram.rs /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/listener.rs /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/socket.rs /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/stream.rs
+
+/Users/prt_oyama.g/workspace/rust_projects/mystore/target/debug/deps/libmio_uds-9b82a4a65d6330d9.rlib: /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/lib.rs /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/datagram.rs /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/listener.rs /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/socket.rs /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/stream.rs
+
+/Users/prt_oyama.g/workspace/rust_projects/mystore/target/debug/deps/mio_uds-9b82a4a65d6330d9.d: /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/lib.rs /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/datagram.rs /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/listener.rs /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/socket.rs /Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/stream.rs
+
+/Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/lib.rs:
+/Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/datagram.rs:
+/Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/listener.rs:
+/Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/socket.rs:
+/Users/prt_oyama.g/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-uds-0.6.8/src/stream.rs:
