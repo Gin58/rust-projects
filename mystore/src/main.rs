@@ -2,6 +2,10 @@
 extern crate diesel;
 extern crate dotenv;
 
+pub mod schema;
+pub mod models;
+pub mod db_connection;
+
 use actix_web::{web, App, HttpServer, HttpResponse, Error};
 
 async fn index() -> Result<HttpResponse, Error> {
