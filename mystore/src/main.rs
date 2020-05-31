@@ -1,3 +1,7 @@
+#[macro_use]
+extern crate diesel;
+extern crate dotenv;
+
 use actix_web::{web, App, HttpServer, HttpResponse, Error};
 
 async fn index() -> Result<HttpResponse, Error> {
