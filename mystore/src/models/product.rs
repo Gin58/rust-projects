@@ -1,6 +1,6 @@
 use crate::schema::products;
 
-#[derive(Queryable)]
+#[derive(Queryable, Serialize, Deserialize)]
 pub struct Product {
   pub id: i32,
   pub name: String,

@@ -1,25 +1,33 @@
+pub mod schema;
+pub mod db_connection;
+pub mod models;
+pub mod handlers;
+
 #[macro_use]
 extern crate diesel;
 extern crate dotenv;
+extern crate serde;
+extern crate serde_json;
+#[macro_use]
+extern crate serde_derive;
 
-pub mod schema;
-pub mod models;
-pub mod db_connection;
+extern crate actix;
+extern crate actix_web;
+extern crate futures;
 
-use actix_web::{web, App, HttpServer, HttpResponse, Error};
-
-async fn index() -> Result<HttpResponse, Error> {
-    Ok(HttpResponse::Ok().content_type("text/plain").body("Hello World") )
-}
+use actix_web::{web, App, HttpServer};
 
 #[actix_rt::main]
 async fn main() -> std::io::Result<()> {
-    HttpServer::new( || {
+    let local = tokio::task::LocalSet::new();
+    let sys = actix_rt::System::run_in_tokio("server", &local);
+    let server_res = HttpServer::new(|| {
         App::new()
-          .service(web::resource("/").to(index))
+          .service(web::resource("/products").to(handlers::products::index))
     })
-      .bind("localhost:9999")
-      .expect("Can not bind to port 9999")
+      .bind("localhost:9999")?
       .run()
-      .await
+      .await?;
+    sys.await?;
+    Ok(server_res)
 }
